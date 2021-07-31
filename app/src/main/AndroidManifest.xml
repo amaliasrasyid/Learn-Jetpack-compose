@@ -10,7 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnJetpackcompose">
         <activity
-            android:name=".MainActivity"
+            android:name=".MaterialDesignComposeActivity"
+            android:exported="true"
+            android:label="Material-Design-Compose"
+            android:theme="@style/Theme.LearnJetpackcompose.NoActionBar" />
+        <activity
+            android:name=".BasicComposeActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.LearnJetpackcompose.NoActionBar">

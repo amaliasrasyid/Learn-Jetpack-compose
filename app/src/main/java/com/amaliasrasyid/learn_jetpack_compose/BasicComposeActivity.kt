@@ -19,7 +19,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.amaliasrasyid.learn_jetpack_compose.ui.theme.LearnJetpackcomposeTheme
 
-class MainActivity : ComponentActivity() {
+class BasicComposeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
